@@ -1,0 +1,219 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style for the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* Style for the table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #007BFF;
+}
+
+/* Style for table headers */
+th {
+    background-color: #007BFF;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Style for table data */
+td {
+    text-align: center;
+    padding: 10px;
+}
+
+/* Style for "Tambah" link */
+.create-contact {
+    display: block;
+    margin: 10px 0;
+    background-color: #ff7171;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* Style for the navigation menu */
+nav {
+    background-color: #007BFF;
+    background-color: #007BFF;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu-icon, .search-icon {
+    cursor: pointer;
+}
+
+.logo {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-items {
+    list-style: none;
+    display: flex;
+}
+
+.nav-items li {
+    margin: 0 15px;
+}
+
+.nav-items a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Style for the search box */
+.search-icon, .cancel-icon {
+    cursor: pointer;
+    display: none;
+}
+
+.darkLight-searchBox {
+    display: flex;
+    align-items: center;
+}
+
+/* Style for dark and light mode */
+.dark-light {
+    display: flex;
+    align-items: center;
+}
+
+.moon, .sun {
+    cursor: pointer;
+    font-size: 20px;
+    color: #fff;
+    margin-right: 10px;
+}
+
+/* Responsive styles for mobile */
+@media screen and (max-width: 768px) {
+    .menu-icon, .cancel-icon {
+        display: block;
+    }
+
+    .search-icon {
+        display: none;
+    }
+
+    .nav-items {
+        display: none;
+        position: absolute;
+        flex-direction: column;
+        top: 60px;
+        left: 0;
+        background-color: #007BFF;
+;
+        width: 100%;
+        z-index: 1;
+        text-align: center;
+    }
+
+    .nav-items.active {
+        display: flex;
+    }
+}
+
+/*read section*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style for the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* Style for the container */
+.container {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 400px;
+    text-align: center;
+}
+
+/* Style for form labels */
+label {
+    display: block;
+    margin: 10px 0;
+    text-align: left;
+}
+
+/* Style for form input fields */
+input[type="text"],
+input[type="email"],
+input[type="date"],
+input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Style for the submit button */
+input[type="submit"] {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Style for success message */
+.success-msg {
+    margin: 10px 0;
+    color: #007BFF;
+    font-weight: bold;
+}
+
+/* Style for the link to go back */
+a {
+    text-decoration: none;
+    color: #007BFF;
+    display: block;
+    margin-top: 10px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+

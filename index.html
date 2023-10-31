@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Library</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://font.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+
+</head>
+<body>
+    <nav>
+        <div class="menu-icon">
+           <span class="fas fa-bars"></span>
+        </div>
+        <div class="logo">E-Library</div>
+        <div class="nav-items">
+           <li><a href="#home">Home</a></li>
+           <li><a href="#about">About</a></li>
+           <li><a href="#menu">Menu</a></li>
+           <li><a href="create.php">Peminjaman</a></li>
+        </div>
+        <div class="search-icon">
+           <span class="fas fa-search"></span>
+        </div>
+        <div class="cancel-icon">
+           <span class="fas fa-times"></span>
+        </div>
+        <form action="#">
+           <input type="search" class="search-data" placeholder="Search" required>
+           <button type="submit" class="fas fa-search"></button>
+        </form>
+ 
+        <div class="darkLight-searchBox">
+         <div class="dark-light">
+             <i class='bx bx-moon moon'></i>
+             <i class='bx bx-sun sun'></i>
+         </div>
+         </div>
+     </nav>
+
+
+    <!-- Home Page Section -->
+    <section class="home" id="home">
+        <div class="home-text">
+            <h1>Halo, Readers</h1>
+            <h2>Hub of Knowledge For <br> Transformation.</h2>
+            <a href="register.php" class="btn">Sign Up!</a>
+        </div>
+        <div class="home-img">
+            <img src="perpus.jpg" alt="Library Image" width="768" height="432">
+        </div>
+    </section>
+
+    <!--Menu Section-->
+    <section class="menu" id="menu">
+        <div class="heading">
+            <span>Library</span>
+            <h2>Series Tere Liye</h2>
+        </div>
+        <div class="menu-container">
+            <!-- Book 1 -->
+            <div class="box">
+                <div class="box-img">
+                    <img src="bumi.jpg" alt="Bumi Book"width="250px" height="370px">
+                </div>
+                <div class="box-content">
+                    <h2>Bumi</h2>
+                    <h3>Tere Liye</h3>
+                </div>
+            </div>
+
+            <!-- Book 2 -->
+            <div class="box">
+                <div class="box-img">
+                    <img src="matahari.jpg" alt="Bulan Book" width="250px" height="370px">
+                </div>
+                <div class="box-content">
+                    <h2>Matahari</h2>
+                    <h3>Tere Liye</h3>
+                </div>
+            </div>
+
+            <!-- Book 3 -->
+            <div class="box">
+                <div class="box-img">
+                    <img src="nebula.jpg" alt="Bintang Book"width="250px" height="370px">
+                </div>
+                <div class="box-content">
+                    <h2>Nebula</h2>
+                    <h3>Tere Liye</h3>
+                </div>
+                </div>
+
+                <!--Book 4-->
+                <div class="box">
+                    <div class="box-img">
+                        <img src="selena.jpg" alt="Bintang Book"width="250px" height="370px">
+                    </div>
+                    <div class="box-content">
+                        <h2>Selena</h2>
+                        <h3>Tere Liye</h3>
+                    </div>
+                    </div>
+        </div>
+    </section>
+
+    <!-- Menu Section 2-->
+    <section class="menu" id="menu">
+        <div class="heading">
+            <span>Library</span>
+            <h2>Series Alam dan Makna</h2>
+        </div>
+        <div class="menu-container">
+            <!-- Book 1 -->
+            <div class="box">
+                <div class="box-img">
+                    <img src="garis waktu.jpg" alt="Bumi Book"width="250px" height="370px">
+                </div>
+                <div class="box-content">
+                    <h2>Garis Waktu</h2>
+                    <h3>Fiersa Besari</h3>
+
+                </div>
+            </div>
+
+            <!-- Book 2 -->
+            <div class="box">
+                <div class="box-img">
+                    <img src="konspirasi alam.jpg" alt="Bulan Book" width="250px" height="370px">
+                </div>
+                <div class="box-content">
+                    <h2>Konspirasi Alam</h2>
+                    <h3>Fiersa Besari</h3> 
+                </div>
+            </div>
+
+            <!-- Book 3 -->
+            <div class="box">
+                <div class="box-img">
+                    <img src="11.11.jpg" alt="Bintang Book"width="250px" height="370px">
+                </div>
+                <div class="box-content">
+                    <h2>11.11</h2>
+                    <h3>Fiersa Besari</h3>
+                </div>
+                </div>
+
+                <!--Book 4-->
+                <div class="box">
+                    <div class="box-img">
+                        <img src="catatan juang.jpg" alt="Bintang Book"width="250px" height="370px">
+                    </div>
+                    <div class="box-content">
+                        <h2>Catatan Juang</h2>
+                        <h3>Fiersa Besari</h3>
+                    </div>
+                    </div>
+    </section>
+
+    <!--About Section-->
+    <section class="about" id="about">
+        <div class="about-img">
+           <img src="saya.jpg" width="600" height="600" alt="My Image">
+     </div>
+        <div class="about-text">
+        <span>About Me</span>
+        <h2>Hello, Readers<br> I'm Aprilia Amelisa</h2>
+        <p>Lulusan SMK KARTINI BATAM jurusan MULTIMEDIA, dengan menguasai berbagai
+            software desain dan editing video seperti Adobe Illustrator, CorelDRAW, Adobe Premiere. Berpengalaman
+            dalam pembuatan flayer disebuah perusahaan radio untuk sosial media, web, dan aset lain
+            untuk kebutuhan masyarakat.</p>
+        <a href="https://www.instagram.com/aprlmlsa.a/?hl=id" class="btn">My Profile</a>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--Javascript-->
+    <script>
+        const body = document.querySelector("body"),
+              nav = document.querySelector("nav"),
+              modeToggle = document.querySelector(".dark-light"),
+              searchToggle = document.querySelector(".searchToggle"),
+              sidebarOpen = document.querySelector(".sidebarOpen"),
+              siderbarClose = document.querySelector(".siderbarClose");
+              let getMode = localStorage.getItem("mode");
+                  if(getMode && getMode === "dark-mode"){
+                    body.classList.add("dark");
+                  }
+        // js code to toggle dark and light mode
+              modeToggle.addEventListener("click" , () =>{
+                modeToggle.classList.toggle("active");
+                body.classList.toggle("dark");
+                // js code to keep user selected mode even page refresh or file reopen
+                if(!body.classList.contains("dark")){
+                    localStorage.setItem("mode" , "light-mode");
+                }else{
+                    localStorage.setItem("mode" , "dark-mode");
+                }
+              });
+        // js code to toggle search box
+                searchToggle.addEventListener("click" , () =>{
+                searchToggle.classList.toggle("active");
+              });
+         
+              
+        //   js code to toggle sidebar
+        sidebarOpen.addEventListener("click" , () =>{
+            nav.classList.add("active");
+        });
+        body.addEventListener("click" , e =>{
+            let clickedElm = e.target;
+            if(!clickedElm.classList.contains("sidebarOpen") && !clickedElm.classList.contains("menu")){
+                nav.classList.remove("active");
+            }
+        });
+        </script>
+    </body>
+</html>
